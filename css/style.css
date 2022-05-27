@@ -6,23 +6,19 @@ h1,h2,h3{
 	}
 	body{
 		text-align: center;
-
-	}
-	body{
 		background-image: url('../images/background.jpg');     
-           background-size: 100% 100%;
+        background-size: 100% 100%;
 
 	}
 
 	p,td{
 		color:  #065A82;
 	}
-	.checkOk{
-		color: green;
-	}
+	
 	.cross{
 		color: red;
 	}
+
 	#avatar{
 		width: 15rem;
 		height: 15rem;
@@ -49,7 +45,22 @@ h1,h2,h3{
 		color:  grey;
 	}
 	@media screen and (min-width: 7em) and (max-width: 27em){
+	body{
+		font-size: large;
+		overflow-y: none;
+	}
+	h1 span {
+		display: block;
+	}
+	.first-text{
+		margin: 1rem;
+	}
+
+	#how{
+		font-size: x-large;
+	}
 	table{
-		max-width:15rem;
+		max-width:8rem;
+		font-size: small;
 	}
 	}
