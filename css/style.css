@@ -1,0 +1,55 @@
+h1,h2,h3{
+		color: #1B3B6F;
+	}
+	tr,th,td {
+		border: 2px solid #333;
+	}
+	body{
+		text-align: center;
+
+	}
+	body{
+		background-image: url('../images/background.jpg');     
+           background-size: 100% 100%;
+
+	}
+
+	p,td{
+		color:  #065A82;
+	}
+	.checkOk{
+		color: green;
+	}
+	.cross{
+		color: red;
+	}
+	#avatar{
+		width: 15rem;
+		height: 15rem;
+	}
+	.btn-rcp{
+		font-family: 'Roboto', sans-serif;
+		padding: 1rem;
+		background-color:#065A82 ;
+		color: #fff;
+	}
+	table{
+		margin: 0 auto;
+	}
+	td:nth-child(2){
+		background-color:  #82A67D;
+	}
+
+	 #untamed{
+	 	color: #1B3B6F;
+	 	background-color:  #5C7457;
+	 	font-weight: 800;
+	 }
+	.brand{
+		color:  grey;
+	}
+	@media screen and (min-width: 7em) and (max-width: 27em){
+	table{
+		max-width:15rem;
+	}
+	}
