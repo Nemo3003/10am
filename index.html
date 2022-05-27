@@ -4,6 +4,9 @@
 <title>Page Title</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 <style>
 </style>
 <script src=""></script>
@@ -11,74 +14,123 @@
 
 <main>
 	<div>
-	<h1>How <br> UNTAMED <br> COMPARES</h1>
-	<p>We pet parents want to keep our cats healthy <br> and happy for all nine of their lives. How can <br>
+	<h1>How UNTAMED <i> COMPARES </i></h1>
+	<p>We pet parents want to keep our cats healthy and happy for all nine of their lives. How can
 	we know we're feeding them the very best? See <br> how Untamed stacks up against other brands.</p>
 	</div>
-	<a href="#">VIEW OUR RECIPES</a>
-	<div id="image-bowl">
-	  <img></img>
+	<br><br>
+	<a  class="btn-rcp" href="#">VIEW OUR RECIPES</a>
+
+	<div>
+		<br><br>
+		<img id="avatar" src="new.jpg"/>
 	</div>
+
 	
 	<section>
-		<h2>Up to scratch?</h2>
+		<h2>Up to <i>scratch</i>?</h2>
 		<p>Every cat needs animal protein, fats, vitamins, and minerals. <br> So how is Untamed doing vs. other big cat foods?</p>
-		<table style="max-width:50%;" >
+		<table>
 		  <tr>
 			<th>       </th>
-			<th>Untamed</th>
-			<th>Sheba</th>
-			<th>Republic of Cats (ROC)</th>
+			<th id="untamed">Untamed</th>
+			<th class="brand">Sheba</th>
+			<th class="brand">Republic of Cats (ROC)</th>
 		  </tr>
 		  <tr>
-			<td>Whole meats</td>
-			<td>✅ <br> 60%+ human grade <br> whole meats</td>
-			<td>❌ <br> Meat derivatives, 4%+ <br> real meat</td>
-			<td>❌ <br> Meat derivatives, 4%+ <br> real meat</td>
+			<td>Whole <br>meats</td>
+			<td><span class="checkOk">✅</span> <br> 60%+ human grade <br> whole meats</td>
+			<td><span class="cross">❌</span> <br> Meat derivatives, 4%+ <br> real meat</td>
+			<td><span class="cross">❌</span> <br> Meat derivatives, 4%+ <br> real meat</td>
 		  </tr>
 		  <tr>
 			<td>Sugars</td>
-			<td>✅</td>
-			<td>❌</td>
-			<td>❌</td>
-		  </tr>
-		  <tr>
-			<th>       </th>
-			<th>No added sugars</th>
-			<th>Sugars</th>
-			<th>Sugars</th>
+			<td><span class="checkOk">✅</span> <br> No Added Sugars</td>
+			<td><span class="cross">❌</span> <br> Sugars</td>
+			<td><span class="cross">❌</span> <br> Sugars</td>
 		  </tr>
 		  <tr>
 			<td>Fillers</td>
-			<td>✅ <br> Grain, cereal and filler <br> free</td>
-			<td>✅ <br> Animal protein</td>
-			<td>✅ <br> Fully recyclable and <br> carbon neutral <br> deliveries</td>
+			<td><span class="checkOk">✅</span> <br> Grain, cereal and filler <br> free</td>
+			<td><span class="checkOk">✅</span> <br> Animal protein</td>
+			<td><span class="checkOk">✅</span> <br> Fully recyclable and <br> carbon neutral <br> deliveries</td>
 		  </tr>
 		  <tr>
 			<td>Protein source</td>
-			<td>❌ <br> Grains </td>
-			<td>❌ <br> Vegetable protein</td>
-			<td>❌ <br> Plastics</td>
+			<td><span class="cross">❌</span> <br> Grains </td>
+			<td><span class="cross">❌</span> <br> Vegetable protein</td>
+			<td><span class="cross">❌</span> <br> Plastics</td>
 		  </tr>
 		  <tr>
 			<td>Environmental <br> impact</td>
-			<td>❌ <br> Grains</td>
-			<td>❌ <br> Vegetable protein</td>
-			<td>❌ <br> Plastics</td>
+			<td><span class="cross">❌</span> <br> Grains</td>
+			<td><span class="cross">❌</span> <br> Vegetable protein</td>
+			<td><span class="cross">❌</span> <br> Plastics</td>
 		  </tr>
 		</table>
-
-		  
-
+		<br><br>
+		  <button class="btn-rcp">VIEW ALL RECIPES</button>
+		  <br><br>
 	</section>
 </main>
 <style>
+	h1,h2,h3{
+		color: #1B3B6F;
+	}
 	tr,th,td {
 		border: 2px solid #333;
 	}
 	body{
 		text-align: center;
 
+	}
+	body{
+		background-image: url('background.jpg');     
+           background-size: 100% 100%;
+
+	}
+
+	p,td{
+		color:  #065A82;
+	}
+	.checkOk{
+		color: green;
+	}
+	.cross{
+		color: red;
+	}
+	#avatar{
+		width: 15rem;
+		height: 15rem;
+	}
+	#image-bowl{
+		background-image: url(background-png.jpg);
+	}
+	.btn-rcp{
+		font-family: 'Roboto', sans-serif;
+		padding: 1rem;
+		background-color:#065A82 ;
+		color: #fff;
+	}
+	table{
+		margin: 0 auto;
+	}
+	td:nth-child(2){
+		background-color:  #82A67D;
+	}
+
+	 #untamed{
+	 	color: #1B3B6F;
+	 	background-color:  #5C7457;
+	 	font-weight: 800;
+	 }
+	.brand{
+		color:  grey;
+	}
+	@media screen and (min-width: 7em) and (max-width: 27em){
+	table{
+		max-width:15rem;
+	}
 	}
 </style>
 
