@@ -47,7 +47,6 @@ h1,h2,h3{
 	@media screen and (min-width: 7em) and (max-width: 27em){
 	body{
 		font-size: large;
-		overflow-y: none;
 	}
 	h1 span {
 		display: block;
